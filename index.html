@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habibti.ai</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="question-box" id="quiz">
+      <h1 id="question">Answer a few questions for a surprise</h1>
+      <button class="btn correct" onclick="startQuiz()">Let's go!</button>
+    </div>
+
+    <video autoplay loop muted playsinline id="background-video">
+      <source id="video-source" src="video1.MP4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <audio id="background-music" loop>
+      <source src="SZA.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
